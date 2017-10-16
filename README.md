@@ -1,5 +1,5 @@
-# Node Test
-A Node app built with Angular and Express for Chart with D3.
+#Angular Chart Aplication
+A Angular app for Chart with D3.
 
 ## Requirements
 
