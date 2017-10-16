@@ -1,0 +1,37 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="nodeTest">
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Node Test</title>
+
+
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/nvd3/nv.d3.css"/>
+	<style>
+			.container 					{ padding-top:50px; margin-top:10;}
+			.margin_top_45 					{ margin-top:45px;}
+			.margin_top_20 					{ margin-top:20px;}
+
+		</style>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+	<script src="lib/d3/d3.js"></script>
+	<script src="lib/chart.js/dist/Chart.min.js"></script>
+	<script src="lib/angular-chart.js/dist/angular-chart.min.js"></script>
+	<script src="lib/ng-lodash/build/ng-lodash.min.js"></script>
+
+	<script src="controller.js"></script>
+
+</head>
+
+<body ng-controller="mainController">
+	<div class="container">
+		<canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-colors="colors">
+		</canvas>
+	</div>
+	</body>
+</html>

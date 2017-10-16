@@ -1,0 +1,10 @@
+{
+  "name": "bandagiTest",
+  "version": "0.0.0",
+  "description": "D3 Chart application.",
+  "author": "Santu",
+  "dependencies": {
+    "ng-lodash": "^0.5.0",
+    "angular-chart.js": "^1.1.1"
+  }
+}
